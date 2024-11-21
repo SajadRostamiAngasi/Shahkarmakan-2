@@ -1,0 +1,90 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #e6f7ff;
+    color: #0073e6;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #0073e6;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+/* Sections */
+.section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section h2 {
+    color: #0073e6;
+    margin-bottom: 20px;
+}
+
+/* Projects Album */
+.projects-album {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #f2faff;
+    border: 1px solid #cce7ff;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-card p {
+    margin: 10px 0 0;
+    color: #333333;
+}
+
+/* Footer */
+footer {
+    background-color: #0073e6;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
